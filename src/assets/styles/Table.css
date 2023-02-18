@@ -1,0 +1,125 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 700px;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    border: 2px #333 solid;
+    width: 100%;
+    max-width: 700px;
+}
+
+
+.th {
+    padding: 3px;
+    text-align: center;
+    border-right: #333 2px solid;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.th:last-of-type {
+    border: none;
+}
+
+.name {
+    width: 20%;
+}
+
+.price {
+    width: 25%;
+}
+
+.SL {
+    width: 15%;
+}
+
+.ThanhTien {
+    width: 20%;
+}
+
+.Control{
+    width: 20%;
+}
+
+.Change, .Delete {
+    width: 10%;
+}
+
+.complete {
+    width: 20%;
+}
+.body {
+    width: 100%;
+}
+
+.tr {
+    display: flex;
+    justify-content: center;
+    border: 2px #333 solid;
+    border-top: none;
+    width: 100%;
+}
+
+.td:last-child {
+    border:none;
+}
+
+.td {
+    border-right: #333 2px solid;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.change, .add {
+    width: 100%;
+    background-color: aquamarine;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete {
+    width: 100%;
+    color: white;
+    background-color: red;    
+    cursor:pointer;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change:hover, .add:hover {
+    background-color: rgb(104, 219, 181);
+    color:rgb(0, 0, 0);
+}
+
+.add {
+    border-left: 2px #333 solid;
+    border-right: 2px #333 solid;
+}
+
+.delete:hover {
+    background-color: rgb(192, 8, 8);
+}
+
+.sum {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}

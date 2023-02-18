@@ -1,0 +1,26 @@
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    margin: 4px;
+}
+
+.item > * {
+    margin: 2px;
+}
+
+
+.load-saved {
+    background-color: aquamarine;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+
+.delete-saved {
+    color: white;
+    width: 50px;
+    text-align: center;
+    background-color: red;    
+    cursor:pointer;
+}
